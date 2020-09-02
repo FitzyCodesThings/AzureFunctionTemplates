@@ -1,24 +1,26 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This solution contains two different Azure Function projects, one triggered by an Azure Storage Queue, the other by an HTTP request (think API).
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+In the Storage Queue project, I've also demonstrated setting up dependency injection and injecting custom options for use in services.
+
+# Getting started
+The solution should run basically as-is. Note that you will need to install the Azure SDK or use the standalone installer to get the Azure Storage Emulator on your machine (also note that this emulator is being replaced, but that the new emulator doesn't fully work as-is yet).
+
+The notes on getting the emulator working are here:  
+https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator
+
+Alternatively, you can specify real connection strings in `local.settings.json` and `appsettings.json` to use a real Azure Storage instance.
 
 # Build Status
 
 ### AzureFunctionHttpTrigger Build Status:  
 [![Build Status](https://dev.azure.com/FitzyCodesThings/AzureFunctionTemplates/_apis/build/status/AzureFunctionTemplates?branchName=master)](https://dev.azure.com/FitzyCodesThings/AzureFunctionTemplates/_build/latest?definitionId=1&branchName=master)
 
+### AzureFunctionQueueTrigger Build Status:
+[![Build Status](https://dev.azure.com/FitzyCodesThings/AzureFunctionTemplates/_apis/build/status/AzureFunctionTemplates%20(1)?branchName=master)](https://dev.azure.com/FitzyCodesThings/AzureFunctionTemplates/_build/latest?definitionId=2&branchName=master)
 
+# Thanks
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+My many, many thanks to IAmTimCorey on YouTube (and he also has some FANTASTIC courses) for his overviews/demos of [Azure Functions](https://www.youtube.com/watch?v=zIfxkub7CLY) and [Azure DevOps CI/CD](https://www.youtube.com/watch?v=H-R2bCXfz8I). Both were HUGELY helpful getting me started.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Thanks, too, to Microsoft for the great docs on [adding DI to functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection).
