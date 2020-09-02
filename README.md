@@ -11,6 +11,12 @@ https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator
 
 Alternatively, you can specify real connection strings in `local.settings.json` and `appsettings.json` to use a real Azure Storage instance.
 
+To run the Queue triggered function **locally**, set your IDE to run both the queue triggered function project and the included console app project (with or without debugging), then press enter in the console window once it's running.
+
+To run the Queue triggered function **on Azure**, make sure the storage queue has been created, then add a queue message manually in the Azure portal.
+
+To run the HTTP triggered function, I recommend using a tool like [Postman](https://www.postman.com/) to create a simple POST request to the URL indicated when the debug window loads locally or from the Azure Function settings on Azure after publishing.
+
 # Build Status
 
 ### AzureFunctionHttpTrigger Build Status:  
