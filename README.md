@@ -8,8 +8,12 @@ TODO: Guide users through getting your code up and running on their own system. 
 3.	Latest releases
 4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Build Status
+
+### AzureFunctionHttpTrigger Build Status:  
+[![Build Status](https://dev.azure.com/FitzyCodesThings/AzureFunctionTemplates/_apis/build/status/AzureFunctionTemplates?branchName=master)](https://dev.azure.com/FitzyCodesThings/AzureFunctionTemplates/_build/latest?definitionId=1&branchName=master)
+
+
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
