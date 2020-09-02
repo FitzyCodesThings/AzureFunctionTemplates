@@ -1,0 +1,14 @@
+{
+  // ****** WARNING: This settings file is included in this repo for demonstration purposes only. 
+  // ****** In a production system, you should exclude this file from your git repository BEFORE setting sensitive details. 
+  "IsEncrypted": false,
+  "Values": {
+    "SomeConfigurationSetting": "SomeConfigurationValue",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  // This is my custom configuration that's injected via IOptions 
+  "AzureStorageOptions": {
+    "ConnectionString": "UseDevelopmentStorage=true"
+  }
+}
