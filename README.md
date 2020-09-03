@@ -23,4 +23,6 @@ Alternatively, you can specify real connection strings in `local.settings.json` 
 
 My many, many thanks to IAmTimCorey on YouTube (and he also has some FANTASTIC courses) for his overviews/demos of [Azure Functions](https://www.youtube.com/watch?v=zIfxkub7CLY) and [Azure DevOps CI/CD](https://www.youtube.com/watch?v=H-R2bCXfz8I). Both were HUGELY helpful getting me started.
 
+Big thanks to Layla of [LaylaCodesIt](https://www.twitch.tv/LaylaCodesIt) for inspiring me to give Functions a whirl to begin with. 😁
+
 Thanks, too, to Microsoft for the great docs on [adding DI to functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection).
