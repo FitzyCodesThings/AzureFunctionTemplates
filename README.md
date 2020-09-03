@@ -3,6 +3,9 @@ This solution contains two different Azure Function projects, one triggered by a
 
 In the Storage Queue project, I've also demonstrated setting up dependency injection and injecting custom options for use in services.
 
+# Overview Video
+Checkout a full walkthrough of the solution [on Youtube](https://www.youtube.com/watch?v=nBMO4-TWeBA).
+
 # Getting started
 The solution should run basically as-is. Note that you will need to install the Azure SDK or use the standalone installer to get the Azure Storage Emulator on your machine (also note that this emulator is being replaced, but that the new emulator doesn't fully work as-is yet).
 
